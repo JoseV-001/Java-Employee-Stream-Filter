@@ -60,7 +60,7 @@ public class Main {
                         .map(e -> e.getSalary())
                         .reduce(0.0, (x, y) -> x + y);
 
-                System.out.print("Sum of salary of people whose name starts with " + initial + " : " + resultC);
+                System.out.printf("Total salary of employees whose name starts with '%c': %.2f%n", initial, resultC);
 
             }
 

@@ -36,9 +36,4 @@ public class Employee {
         this.salary = salary;
     }
 
-    @Override
-    public String toString() {
-        return email;
-//        return name + ", " + email + ", " + String.format("%.2f", salary);
-    }
 }
